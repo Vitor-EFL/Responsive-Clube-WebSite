@@ -1,0 +1,153 @@
+                /* Navbar */
+
+header.hide-OnMobile {
+    height: 7rem;
+    background-color: var(--light-brown);
+}
+
+.pc-navbar {
+    margin: 0 10rem;
+    color: var(--darker-brown);
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc-navbar > :first-child {
+    font-weight: 900;
+    font-size: 5rem;
+    Font-Family: 'Playfair Display', Serif;
+    font-style: italic;
+}
+
+.pc-navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.pc-navbar li {
+    margin-left: 4rem;
+}
+
+.pc-navbar li a {
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 575.98px) {
+    *{
+        font-size: 0.5rem;
+    }
+
+    .hide-OnMobile {
+        display: none;
+    }
+
+    header.hide-OnPc {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 6rem;
+    }
+
+    .mobile-navbar {
+        background-color: var(--light-brown);
+        height: 100%;
+    }
+
+    .mobile-navbar ul {
+        display: flex;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .mobile-navbar li {
+        border: 0.2rem solid var(--darker-brown);
+        padding: 0.6rem 13vw;
+    }
+
+    .mobile-navbar li a {
+        Font-Family: 'Playfair Display', Serif;
+        font-weight: 800;
+        color: var(--darker-brown);
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    
+    * {
+        font-size: 0.6rem;
+    }
+
+    .hide-OnMobile {
+        display: none;
+    }
+    
+    header.hide-OnPc {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 6rem;
+    }
+
+    .mobile-navbar {
+        background-color: var(--light-brown);
+        height: 100%;
+    }
+
+    .mobile-navbar ul {
+        display: flex;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .mobile-navbar li {
+        border: 0.2rem solid var(--darker-brown);
+        padding: 0.6rem 13vw;
+    }
+
+    .mobile-navbar li a {
+        Font-Family: 'Playfair Display', Serif;
+        font-weight: 800;
+        color: var(--darker-brown);
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    
+    * {
+        font-size: 9px;
+    }
+
+    .hide-OnPc {
+        display: none;
+    }
+    .pc-navbar li {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1199.98px) {
+
+    * {
+        font-size: 9px;
+    }
+
+    .hide-OnPc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .hide-OnPc {
+        display: none;
+    }
+}
+
+
+                
+                /* END Navbar */
