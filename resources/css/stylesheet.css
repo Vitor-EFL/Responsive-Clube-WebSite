@@ -221,10 +221,15 @@ header.hide-OnMobile {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width:1199.98px) {
 
     
     
+}
+
+@media only screen and (min-width: 1200px) {
+    
+
 }
                 /* END Homepage */
                 /* Second Section */
@@ -255,9 +260,15 @@ flex-direction: column;
                 /* Third Section */
 
 .third-section {
+    text-align: center;
+    overflow: hidden;
+}
+
+.text-img-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .third-section h2 {
@@ -269,12 +280,15 @@ flex-direction: column;
 .third-section p {
     font-size: clamp(20px, 1vw + 1.5rem, 3rem);
     color: var(--darker-brown);
-    width: 80%;
+    width: 30%;
+    text-align: justify;
+    align-self: center;
+    margin: 0 4rem;
 }
 
 .third-section .img {
-    width: 80%;
-    height: 65vh;
+    width: 60%;
+    height: 70vh;
     background-image: url(../images/we-all.jpeg);
     background-size: cover;
     background-position: left bottom;
@@ -283,32 +297,52 @@ flex-direction: column;
 @media only screen and (max-width: 575.98px) {
 
     .third-section .img {
-        width: 120%;
-        background-position: center bottom;
+    width: 100%;
+    height: 40vh;
     }
+
+    .third-section p {
+        width: 100%;
+    }
+    
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
     
     .third-section .img {
-        width: 120%;
-        background-position: center bottom;
-    }
+        width: 100%;
+        height: 50vh;
+        }
+    
+        .third-section p {
+            width: 100%;
+        }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     
     .third-section .img {
-        width: 120%;
-        background-position: center bottom;
-    }
+        width: 100%;
+        }
+    
+        .third-section p {
+            width: 100%;
+        }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width:1199.98px){
 
     .third-section .img {
-        width: 80%;
-    }
+        width: 100%;
+        }
+    
+        .third-section p {
+            width: 100%;
+        }
 }
 
+@media only screen and (min-width: 1200px) {
+    
+
+}
                 /* END Third Section */
