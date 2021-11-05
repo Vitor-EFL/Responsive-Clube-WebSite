@@ -230,21 +230,23 @@ header.hide-OnMobile {
                 /* Second Section */
 
 .second-section {
-    padding-top: 8rem;
-    display: flex;
-    justify-content: space-between;
+overflow: hidden;
+display: flex;
+flex-direction: column;
 }
 
 .second-section h2 {
     color: var(--brown);
-    font-size: 12rem;
+    font-size: clamp(28px, 5vw + 2rem, 14rem);
+    padding-top: 10rem;
 }
 
 .second-section p {
     margin-top: 4rem;
     padding: 3rem;
-    font-size: 4rem;
-    width: 60%;
+    font-size: clamp(20px, 1vw + 1.5rem, 3rem);
+    color: var(--darker-brown);
+    width: 80%;
     text-align: justify;
     align-self: center;
 }
