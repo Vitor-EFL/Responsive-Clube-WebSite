@@ -237,7 +237,7 @@ flex-direction: column;
 
 .second-section h2 {
     color: var(--brown);
-    font-size: clamp(28px, 5vw + 2rem, 14rem);
+    font-size: clamp(40px, 5vw + 2rem, 14rem);
     padding-top: 10rem;
 }
 
