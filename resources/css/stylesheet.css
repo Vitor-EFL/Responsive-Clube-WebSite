@@ -284,6 +284,7 @@ flex-direction: column;
 
     .third-section .img {
         width: 120%;
+        background-position: center bottom;
     }
 }
 
@@ -291,6 +292,7 @@ flex-direction: column;
     
     .third-section .img {
         width: 120%;
+        background-position: center bottom;
     }
 }
 
@@ -298,6 +300,7 @@ flex-direction: column;
     
     .third-section .img {
         width: 120%;
+        background-position: center bottom;
     }
 }
 
